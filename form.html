@@ -10,12 +10,46 @@
 
     <form action="result.html" method="get">
 
-        <label for="fname">username:</label> <br>
-        <input type="text" id="fname" name="isim"> <br>
-        <label for="sname">surname:</label> <br>
-        <input type="text" id="sname" name="soyisim">
+<!-- label ve text input kullanımı -->
 
+        <label for="fname">Username:</label> <br>
+        <input type="text" id="fname" name="isim" placeholder="adınız.."> <br>
+        <label for="sname">Surname:</label> <br>
+        <input type="text" id="sname" name="soyisim" placeholder="soyadınız..">
 
+<!-- password -->
+<div>
+     <label for="sifre">Password:</label> <br>
+     <input type="password" name="parola" id="sifre" placeholder="şifre.." required>
+</div>
+
+<!-- Radio -->
+<div>
+     <label for="">Gender</label> <br>
+     <label for="gender1">Male</label>
+     <input type="radio" name="cinsiyet" id="gender1" value="Erkek">
+     <label for="gender2">Female</label>
+     <input type="radio" name="cinsiyet" id="gender2" value="Kadın">
+     <label for="gender3">Other</label>
+     <input type="radio" name="cinsiyet" id="gender3" value="Belirtilmedi">
+
+</div>
+
+<!-- checkbox -->
+<br>
+<div>
+    <label>Select Favourite Animals</label> <br>
+
+    <input type="checkbox" name="animal_1" id="Panda" value="Panda">
+    <label for="Panda">Panda</label>
+
+    <input type="checkbox" name="animal_2" id="balık" value="balık">
+    <label for="balık">Balık</label>
+
+    <input type="checkbox" name="animal_3" id="kedi" value="kedi" checked>
+    <label for="kedi">Kedi</label>
+
+</div>
 
 
         <br><br><br><br><br><br><br><br>
